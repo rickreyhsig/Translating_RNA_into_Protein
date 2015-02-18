@@ -7,7 +7,6 @@ Return: The protein string encoded by s.
 <http://rosalind.info/problems/prot/>
 
 
-
 Codons:  (Sequence of 3 nucleotides)
 UUU F      CUU L      AUU I      GUU V
 UUC F      CUC L      AUC I      GUC V
@@ -33,7 +32,7 @@ three stop codons (UAA, UAG, UGA)
 Protein string are built from these cahracters:
 ACDEFGHIKLMNPQRSTVWY
 
-But NOT these:F
+But NOT these:
 BJOUXZ
 
 Sample Dataset - Sample Output
@@ -54,3 +53,4 @@ AUU - I
 AAC - N
 GGG - G
 UGA - Stop
+MAMAPRTEINSTRING
