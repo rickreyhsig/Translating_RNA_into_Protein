@@ -7,7 +7,7 @@ Return: The protein string encoded by s.
 <http://rosalind.info/problems/prot/>
 
 
-*Codons:  (Sequence of 3 nucleotides)
+Codons:  (Sequence of 3 nucleotides)
 * UUU F      CUU L      AUU I      GUU V
 * UUC F      CUC L      AUC I      GUC V
 * UUA L      CUA L      AUA I      GUA V
@@ -26,16 +26,16 @@ Return: The protein string encoded by s.
 * UGG W      CGG R      AGG R      GGG G
 
 
-*start codon (AUG) amino acid METHIONINE
+start codon (AUG) amino acid METHIONINE
 * three stop codons (UAA, UAG, UGA)
 
-*Protein string are built from these cahracters:
+Protein string are built from these cahracters:
 * ACDEFGHIKLMNPQRSTVWY
 
-*But NOT these:
+But NOT these:
 * BJOUXZ
 
-*Sample Dataset - Sample Output
+Sample Dataset - Sample Output
 * AUG - M
 * GCC - A
 * AUG - M
